@@ -1,0 +1,67 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #e85656, #f08080, #ffaeae, #ffc0cb, #ffd8e0, #f0f0f0, #e0f8e0, #c0ffae, #a0ffa0, #80ff80);
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s linear infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }
+  h3 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  form {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    width: 120px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-size: 16px; 
+  }
+  
+  button.verify-button {
+    background-color: #0074D9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button.verify-button:hover {
+    background-color: #0056A1;
+  }
+  
+  #verification-status {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #0074D9;
+  }
+  

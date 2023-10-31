@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="verify-otp.css">
+    <title>Verify OTP</title>
+    
+</head>
+<body>
+    <h3>VERIFY OTP</h3>
+    <form onsubmit="verifyOTP(event)">
+        <p>
+            <label>Enter OTP:</label>
+            <input id="otp" type="text" name="otp" size="6">
+        </p>
+        <button class="verify-button">VERIFY</button>
+    </form>
+    <p id="verification-status"></p>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+    <script src="verify-otp.js"></script>
+</body>
+</html>
